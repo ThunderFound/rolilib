@@ -1,6 +1,6 @@
 # rolilib
 
-**rolilib** is an open source API Wrapper for [Rolimons](https://www.rolimons.com/)
+**rolilib** is an open source API Wrapper for [Rolimon's](https://www.rolimons.com/)
 
 
 ## Installation
@@ -15,7 +15,7 @@ pip install rolilib
 ```python
 import rolilib
 
-item = rolilib.getItem('138932314')
+item = rolilib.item('138932314')
 
 print('Name:', item.name)
 print('RAP:', item.rap)
