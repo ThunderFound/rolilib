@@ -1,8 +1,6 @@
 # rolilib
 
 **rolilib** is an open source API Wrapper for [Rolimon's](https://www.rolimons.com/)
-
-U can also try out these other API Wrappers
 ## Installation
 
 ```bash
