@@ -11,32 +11,46 @@ pip install rolilib
 ```python
 import rolilib
 
-item = rolilib.item('138932314')
+item = rolilib.getItem('138932314')
 
 print('Name:', item.name)
 print('RAP:', item.rap)
 ```
+
 Output:
 ```bash
 Name: Dominus Aureus
 RAP: 4316150
 ```
 
-<br/>
-
-### Items name and RAP
+### Players name, id and RAP
 ```python
 import rolilib
 
-item = rolilib.item('138932314')
+player = rolilib.getPlayer('Rolimon')   # Letter case does not matter
 
-print('Name:', item.name)
-print('RAP:', item.rap)
+print('Name:', player.name)
+print('Id:', player.id)
+print('RAP:', player.rap)
+
+print('--------------------')
+
+player = rolilib.getPlayer('489694314')   # Or you can pass id
+
+print('Name:', player.name)
+print('Id:', player.id)
+print('RAP:', player.rap)
 ```
+
 Output:
 ```bash
-Name: Dominus Aureus
-RAP: 4316150
+Name: Rolimon
+Id: 152588760
+RAP: 478207
+--------------------
+Name: And23102
+Id: 489694314
+RAP: 2155
 ```
 ## You can also try out these packages
 
