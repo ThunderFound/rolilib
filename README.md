@@ -2,7 +2,7 @@
 
 **rolilib** is an open source API Wrapper for [Rolimon's](https://www.rolimons.com/)
 
-
+U can also try out these other API Wrappers
 ## Installation
 
 ```bash
@@ -25,3 +25,8 @@ Output:
 Name: Dominus Aureus
 RAP: 4316150
 ```
+## You can also try out these packages
+
+[rolimons.py](https://github.com/wa1ker38552/rolimons.py)
+
+[rolipy](https://github.com/acierp/rolipy)
