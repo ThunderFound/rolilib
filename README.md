@@ -7,11 +7,11 @@ pip install rolilib
     
 ## Examples
 
-### Items name and RAP
+### Item's name and RAP
 ```python
 import rolilib
 
-item = rolilib.getItem('138932314')
+item = rolilib.getItem('138932314')   # Item's id
 
 print('Name:', item.name)
 print('RAP:', item.rap)
@@ -23,7 +23,7 @@ Name: Dominus Aureus
 RAP: 4316150
 ```
 
-### Players name, id and RAP
+### Player's name, id and RAP
 ```python
 import rolilib
 
@@ -35,7 +35,7 @@ print('RAP:', player.rap)
 
 print('--------------------')
 
-player = rolilib.getPlayer('489694314')   # Or you can pass id
+player = rolilib.getPlayer('489694314')   # Also, you can pass id
 
 print('Name:', player.name)
 print('Id:', player.id)
