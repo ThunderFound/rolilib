@@ -1,20 +1,25 @@
 import requests
-from .exceptions import PlayerNotFound
+from .exceptions import *
 
-class player():
+class getPlayer():
     def __init__(self, player = None):
         if str(player).isdigit():
             self.id = str(player)
             self.getPlayerInfo(self.id)
         else:
             request = requests.get(f'https://api.rolimons.com/players/v1/playersearch?searchstring={player}').json()
+            if not request['success']:
+                raise RateLimit('Rate limit exceeded')
+
             if request['players']:
-                for item in request['players']:
-                    if player == item[1]:
+                for index, item in enumerate(request['players']):
+                    if player.lower() == item[1].lower():
                         self.id = item[0]
                         self.getPlayerInfo(self.id)
+                        break
                     else:
-                        raise PlayerNotFound(f'Player {player} not found!')
+                        if index == len(request['players']) - 1:
+                            raise PlayerNotFound(f'Player {player} not found!')
             else:
                 raise PlayerNotFound(f'Player {player} not found!')
 
