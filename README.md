@@ -1,6 +1,8 @@
-# rolilib
+![roliLib banner](https://github.com/ThunderFound/rolilib/assets/90287659/b7c011fb-69b6-4c9e-8514-9f919d5f84af)
 
-**rolilib** is an open source API Wrapper for [Rolimon's](https://www.rolimons.com/)
+
+<br/>
+
 ## Installation
 
 ```bash
