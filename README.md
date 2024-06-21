@@ -133,6 +133,61 @@ Returns whether the item is rare
 | ----- | ----- |
 | -1    | 1     |
 
+### rolilib.getPlayer()
+
+#### getPlayer().id
+
+Returns players's id
+
+#### getPlayer().name
+
+Returns players's username
+
+#### getPlayer().value
+
+Returns players's value
+
+#### getPlayer().rap
+
+Returns players's rap
+
+#### getPlayer().rank
+
+Returns players's rank in leaderboard
+
+| Outside top 1000 | Inside top 1000      |
+| ---------------- | -------------------- |
+| None             | Value from 1 to 1000 |
+
+#### getPlayer().premium
+
+Returns whether the player has premium
+
+#### getPlayer().privacy_enabled
+
+Returns whether the player has inventory private
+
+#### getPlayer().terminated
+
+Returns whether the player is terminated
+
+#### getPlayer().stats_updated
+
+Returns when player's stats were updated the last time. Returns unix timestamp
+
+#### getPlayer().stats_updated_utc
+
+Returns when player's stats were updated the last time. Returns date in UTC
+
+#### getPlayer().last_scan
+
+Returns when player's stats were scanned the last time. Returns unix timestamp
+
+#### getPlayer().last_scan_utc
+
+Returns when player's stats were scanned the last time. Returns date in UTC
+
+
 ## You can also try out these packages
 
 [rolimons.py](https://github.com/wa1ker38552/rolimons.py)
