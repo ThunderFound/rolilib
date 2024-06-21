@@ -111,11 +111,11 @@ Returns item's trend
 
 #### getItem().projected
 
-Returns item's whether the item is projected
+Returns whether the item is projected
 
 #### getItem().hyped
 
-Returns item's whether the item is hyped
+Returns whether the item is hyped
 
 #### getItem().rare
 
