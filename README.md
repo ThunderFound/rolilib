@@ -65,9 +65,64 @@ Output: (I won't show the full output because it contains more than 50,000 chara
 ```bash
 ['Red Baseball Cap', 'Classic ROBLOX Viking Helm', 'The Classic ROBLOX Fedora', 'Domino Crown' ... 'Vault Commando', 'Vault Swordpack', 'Vault Glider Wings', 'Daemonshank']
 ```
+## Documentation
 
+### rolilib.getItem()
+
+#### getItem().id
+
+Returns item's id
+
+#### getItem().name
+
+Returns item's name
+
+#### getItem().acronym
+
+Returns item's acronym
+
+#### getItem().rap
+
+Returns item's rap
+
+#### getItem().value
+
+Returns item's value
+
+#### getItem().default_value
+
+Returns item's original/default value
+
+#### getItem().demand
+
+Returns item's demand
+
+| Unassigned | Terrible   | Low        | Normal     | High       | Amazing    |
+| ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| -1         | 0          | 1          | 2          | 3          | 4          |
+
+#### getItem().trend
+
+Returns item's trend
+
+| Unassigned | Unstable   | Lowering   | Stable     | Raising    | Fluctuating |
+| ---------- | ---------- | ---------- | ---------- | ---------- | ----------  |
+| -1         | 0          | 1          | 2          | 3          | 4           |
+
+#### getItem().projected
+
+Returns item's whether the item is projected
+
+#### getItem().hyped
+
+Returns item's whether the item is hyped
+
+#### getItem().rare
+
+Returns item's rarity
 ## You can also try out these packages
 
 [rolimons.py](https://github.com/wa1ker38552/rolimons.py)
 
 [rolipy](https://github.com/acierp/rolipy)
+## Color Reference
