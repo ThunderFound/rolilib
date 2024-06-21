@@ -187,6 +187,19 @@ Returns when player's stats were scanned the last time. Returns unix timestamp
 
 Returns when player's stats were scanned the last time. Returns date in UTC
 
+#### getPlayer().last_online
+
+Returns when the player was online last time. Returns unix timestamp
+
+#### getPlayer().last_online_utc
+
+Returns when the player was online last time. Returns date in UTC
+
+#### getPlayer().last_location
+
+Returns where was the player when he was checked the last time
+
+
 
 ## You can also try out these packages
 
