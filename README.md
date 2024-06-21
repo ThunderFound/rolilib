@@ -125,4 +125,3 @@ Returns item's rarity
 [rolimons.py](https://github.com/wa1ker38552/rolimons.py)
 
 [rolipy](https://github.com/acierp/rolipy)
-## Color Reference
