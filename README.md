@@ -113,13 +113,26 @@ Returns item's trend
 
 Returns whether the item is projected
 
+| False | True  |
+| ----- | ----- |
+| -1    | 1     |
+
 #### getItem().hyped
 
 Returns whether the item is hyped
 
+| False | True  |
+| ----- | ----- |
+| -1    | 1     |
+
 #### getItem().rare
 
-Returns item's rarity
+Returns whether the item is rare
+
+| False | True  |
+| ----- | ----- |
+| -1    | 1     |
+
 ## You can also try out these packages
 
 [rolimons.py](https://github.com/wa1ker38552/rolimons.py)
